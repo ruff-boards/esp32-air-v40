@@ -9,7 +9,7 @@
         "gnd-3": "ground/gnd-3",
         "vdd-0": "power/vdd-0",
         "vdd-1": "power/vdd-1",
-        "vdd-1": "power/vdd-2",
+        "vdd-2": "power/vdd-2",
         "gpio-0": "gpio-0/gpio",
         "gpio-2": "gpio-2/gpio",
         "gpio-4": "gpio-4/gpio",
