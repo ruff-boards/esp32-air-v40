@@ -1,6 +1,6 @@
 {
     "name": "esp32-air-v40",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Ruff ESP32 AIR v4.0 board",
     "author": "Nanchao Inc.",
     "dependencies": {
