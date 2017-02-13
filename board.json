@@ -1,0 +1,469 @@
+{
+    "version": "2.0",
+    "id": "esp32-air-v40",
+    "model": "esp32-air-v40",
+    "outputs": {
+        "gnd-0": "ground/gnd-0",
+        "gnd-1": "ground/gnd-1",
+        "gnd-2": "ground/gnd-2",
+        "gnd-3": "ground/gnd-3",
+        "vdd-0": "power/vdd-0",
+        "vdd-1": "power/vdd-1",
+        "vdd-1": "power/vdd-2",
+        "gpio-0": "gpio-0/gpio",
+        "gpio-2": "gpio-2/gpio",
+        "gpio-4": "gpio-4/gpio",
+        "gpio-5": "gpio-5/gpio",
+        "gpio-12": "gpio-12/gpio",
+        "gpio-13": "gpio-13/gpio",
+        "gpio-14": "gpio-14/gpio",
+        "gpio-15": "gpio-15/gpio",
+        "gpio-16": "gpio-16/gpio",
+        "gpio-17": "gpio-17/gpio",
+        "gpio-18": "gpio-18/gpio",
+        "gpio-19": "gpio-19/gpio",
+        "gpio-22": "gpio-22/gpio",
+        "gpio-23": "gpio-23/gpio",
+        "gpio-26": "gpio-26/gpio",
+        "gpio-27": "gpio-27/gpio",
+        "gpio-32": "gpio-32/gpio",
+        "gpio-33": "gpio-33/gpio",
+        "gpio-34": "gpio-34/gpio",
+        "gpio-35": "gpio-35/gpio"
+    },
+    "devices": [
+        {
+            "id": "ground",
+            "outputs": {
+                "gnd-0": {
+                    "type": "ground"
+                },
+                "gnd-1": {
+                    "type": "ground"
+                },
+                "gnd-2": {
+                    "type": "ground"
+                },
+                "gnd-3": {
+                    "type": "ground"
+                }
+            }
+        },
+        {
+            "id": "power",
+            "outputs": {
+                "vdd-0": {
+                    "type": "power",
+                    "args": {
+                        "voltage": "3.3v"
+                    }
+                },
+                "vdd-1": {
+                    "type": "power",
+                    "args": {
+                        "voltage": "3.3v"
+                    }
+                },
+                "vdd-2": {
+                    "type": "power",
+                    "args": {
+                        "voltage": "5v"
+                    }
+                }
+            }
+        },
+        {
+            "id": "gpio-0",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 0
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-2",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 2
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-4",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 4
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-5",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 5
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-12",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 12
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-13",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 13
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-14",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 14
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-15",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 15
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-16",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 16
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-17",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 17
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-18",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 18
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-19",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 19
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-22",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 22
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-23",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 23
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-25",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 25
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-26",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 26
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-27",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 27
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-32",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 32
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-33",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 33
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-34",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 34
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "gpio-35",
+            "model": "ruff-gpio",
+            "driver": "mcu-gpio",
+            "inputs": {
+                "pin": {
+                    "type": "number",
+                    "args": {
+                        "pin": 35
+                    }
+                }
+            },
+            "outputs": {
+                "gpio": {
+                    "type": "gpio"
+                }
+            }
+        },
+        {
+            "id": "led",
+            "model": "ruff-led-gpio",
+            "driver": "led-gpio",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "bind": "gpio-25/gpio",
+                    "args": {
+                        "direction": "out",
+                        "level": "low"
+                    }
+                }
+            }
+        }
+    ]
+}
