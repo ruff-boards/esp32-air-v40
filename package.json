@@ -3,6 +3,9 @@
     "version": "0.1.1",
     "description": "Ruff ESP32 AIR v4.0 board",
     "author": "Nanchao Inc.",
+    "dependencies": {
+        "rap-esp32": "*"
+    },
     "ruff": {
         "dependencies": {
             "led-gpio": "^2.0.0"
