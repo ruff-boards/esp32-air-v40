@@ -8,7 +8,7 @@
     },
     "ruff": {
         "dependencies": {
-            "led-gpio": "^2.0.0",
+            "led-gpio": "^3.0.0",
             "esp32-wifi": "^0.1.0"
         },
         "devDependencies": {}
