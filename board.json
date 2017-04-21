@@ -10,7 +10,6 @@
         "vdd-0": "power/vdd-0",
         "vdd-1": "power/vdd-1",
         "vdd-2": "power/vdd-2",
-        "gpio-0": "gpio-0/gpio",
         "gpio-2": "gpio-2/gpio",
         "gpio-4": "gpio-4/gpio",
         "gpio-5": "gpio-5/gpio",
@@ -69,24 +68,6 @@
                     "args": {
                         "voltage": "5v"
                     }
-                }
-            }
-        },
-        {
-            "id": "gpio-0",
-            "model": "ruff-gpio",
-            "driver": "mcu-gpio",
-            "inputs": {
-                "pin": {
-                    "type": "number",
-                    "args": {
-                        "pin": 0
-                    }
-                }
-            },
-            "outputs": {
-                "gpio": {
-                    "type": "gpio"
                 }
             }
         },
