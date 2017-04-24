@@ -26,9 +26,7 @@
         "gpio-26": "gpio-26/gpio",
         "gpio-27": "gpio-27/gpio",
         "gpio-32": "gpio-32/gpio",
-        "gpio-33": "gpio-33/gpio",
-        "gpio-34": "gpio-34/gpio",
-        "gpio-35": "gpio-35/gpio"
+        "gpio-33": "gpio-33/gpio"
     },
     "devices": [
         {
@@ -386,42 +384,6 @@
                     "type": "number",
                     "args": {
                         "pin": 33
-                    }
-                }
-            },
-            "outputs": {
-                "gpio": {
-                    "type": "gpio"
-                }
-            }
-        },
-        {
-            "id": "gpio-34",
-            "model": "ruff-gpio",
-            "driver": "mcu-gpio",
-            "inputs": {
-                "pin": {
-                    "type": "number",
-                    "args": {
-                        "pin": 34
-                    }
-                }
-            },
-            "outputs": {
-                "gpio": {
-                    "type": "gpio"
-                }
-            }
-        },
-        {
-            "id": "gpio-35",
-            "model": "ruff-gpio",
-            "driver": "mcu-gpio",
-            "inputs": {
-                "pin": {
-                    "type": "number",
-                    "args": {
-                        "pin": 35
                     }
                 }
             },
