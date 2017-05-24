@@ -1,6 +1,6 @@
 {
     "name": "esp32-air-v40",
-    "version": "0.1.7",
+    "version": "0.2.0",
     "description": "Widora-AIR v4.0 ESP32 board powered by Ruff",
     "author": "Nanchao Inc.",
     "dependencies": {
@@ -9,7 +9,7 @@
     "ruff": {
         "dependencies": {
             "led-gpio": "^3.0.0",
-            "esp32-wifi": "0.2.0"
+            "esp32-wifi": "^0.3.0"
         },
         "devDependencies": {}
     }
