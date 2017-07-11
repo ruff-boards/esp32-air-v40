@@ -1,6 +1,6 @@
 {
     "name": "esp32-air-v40",
-    "version": "0.2.3",
+    "version": "0.2.4",
     "description": "Widora-AIR v4.0 ESP32 board powered by Ruff",
     "author": "Nanchao Inc.",
     "dependencies": {
@@ -11,7 +11,8 @@
             "port": {
                 "type": "string",
                 "description": "designate UART port",
-                "required": true
+                "required": true,
+                "visible": true
             }
         },
         "dependencies": {
