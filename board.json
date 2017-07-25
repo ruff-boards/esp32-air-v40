@@ -1,5 +1,6 @@
 {
     "version": "2.0",
+    "featureVersion": "0.1",
     "id": "esp32-air-v40",
     "model": "esp32-air-v40",
     "outputs": {
@@ -83,7 +84,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -101,7 +110,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -119,7 +136,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -137,7 +162,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -155,7 +188,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -173,7 +214,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -191,7 +240,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -209,7 +266,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -227,7 +292,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -245,7 +318,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -263,7 +344,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -281,7 +370,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -299,7 +396,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -317,7 +422,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -335,7 +448,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -353,7 +474,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -371,7 +500,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -389,7 +526,15 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
