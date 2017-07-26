@@ -424,9 +424,6 @@
                 "gpio": {
                     "type": "gpio",
                     "features": {
-                        "input": [
-                            "read"
-                        ],
                         "output": [
                             "write"
                         ]
